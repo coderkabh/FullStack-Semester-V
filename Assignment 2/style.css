@@ -5,8 +5,17 @@
 .welcome{
     color: red;
 }
-div{
-    height: 100vh;
-    width: 100%;
+
+body{
     background-color: aqua;
+}
+
+div{
+    width: 100%;
+
+}
+.image-container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }

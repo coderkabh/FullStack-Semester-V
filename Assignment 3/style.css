@@ -16,3 +16,8 @@
     color: blue;
     display: inline;
 }
+.image-container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
