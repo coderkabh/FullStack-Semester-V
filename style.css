@@ -36,6 +36,32 @@ body{
     .content-box{
         width: 80%;
     }
+
+    .footer-container{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+
+    }
+
+    #made-by{
+        font-size: 18px;
+        color: #ffffff;
+    }
+
+    #welcome-heading{
+        color: #ffffff;
+    }
+
+    #about-heading{
+        color: #ffffff;
+    }
+
+    #content-paragraph{
+        color: #ffffff;
+        font-size: 18px;
+    }
+
 }
 
 .footer-container{
