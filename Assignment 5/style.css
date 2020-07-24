@@ -1,0 +1,19 @@
+body{
+    background-color: #acacac;
+
+}
+
+.text{
+    background-color: rgba(80, 80, 80, 0.45);
+    color: #ffffff;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.main-img{
+    margin-top: 20px;
+    width: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
