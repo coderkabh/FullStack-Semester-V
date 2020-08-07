@@ -24,3 +24,67 @@
     color: black;
 }
 
+#section-1{
+    width: 100%;
+    margin-top: 60px;
+}
+#section-1 h1{
+    color: black;
+    text-align: center;
+
+}
+
+#circular-parent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+}
+
+.circular-image{
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #d0b043;
+}
+
+#section-2 h1{
+    color: black;
+    text-align: center;
+}
+
+#section-2-sub-parent{
+    display: flex;
+    flex-direction: row;
+}
+
+#article-parent{
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content{
+    margin-top: 20px;
+    width: 910px;
+    height: 490px;
+    background-color: rgba(104, 96, 104, 0.46);
+}
+
+#main-content h1{
+    color: white;
+    padding-top: 250px;
+}
+
+.article{
+    width: 910px;
+    height: 150px;
+    justify-content: space-around;
+    background-color: #f19129;
+}
+
+.article h1{
+    color: white;
+    padding-top: 40px;
+}
+
