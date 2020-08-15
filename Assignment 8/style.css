@@ -6,7 +6,10 @@
 #header{
     height: 50px;
     margin: 20px;
+    width: 100%;
     background-color: gray;
+    position: fixed;
+
 }
 
 .header-ul{
@@ -37,9 +40,9 @@
     text-align: center;
     color: white;
 }
-#banner{
+#banner {
     height: 800px;
-    margin: 20px;
+    margin: 0 20px;
     background-image: url("../images/emile-perron-xrVDYZRGdw4-unsplash.jpg");
     background-size: cover;
 }
@@ -49,24 +52,46 @@
     color: black;
 }
 
-#section-1{
+#section-1 {
     width: 100%;
     margin-top: 60px;
 }
-#section-1 h1{
+
+#section-1 h1 {
     color: black;
     text-align: center;
 
 }
 
-#circular-parent{
+#avatar-1-img {
+    background-image: url("../images/avatar-1.png");
+    background-position: center;
+}
+
+#avatar-2-img {
+    background-image: url("../images/avatar-2.png");
+    background-position: center;
+}
+
+#avatar-3-img {
+    background-image: url("../images/avatar-3.png");
+    background-position: center;
+}
+
+#avatar-4-img {
+    background-image: url("../images/avatar-4.png");
+    background-position: center;
+}
+
+
+#circular-parent {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 200px;
 }
 
-.circular-image{
+.circular-image {
     justify-content: space-around;
     width: 200px;
     height: 200px;
