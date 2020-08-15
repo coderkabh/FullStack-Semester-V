@@ -55,6 +55,7 @@
 #section-1 {
     width: 100%;
     margin-top: 60px;
+
 }
 
 #section-1 h1 {
@@ -121,24 +122,38 @@
     background-color: rgba(104, 96, 104, 0.46);
 }
 
-#main-content h1{
+#main-content h1 {
     color: white;
     padding-top: 250px;
 }
 
-.article{
+.article {
     width: 910px;
     height: 150px;
     justify-content: space-around;
-    background-color: #f19129;
 }
 
-.article h1{
+#p1 {
+    background-image: url("../images/p1.jpg");
+    background-size: cover;
+}
+
+#p2 {
+    background-image: url("../images/p2.jpeg");
+    background-size: cover;
+}
+
+#p3 {
+    background-image: url("../images/p3.jpg");
+    background-size: auto;
+}
+
+.article h1 {
     color: white;
     padding-top: 40px;
 }
 
-#section-3 h1{
+#section-3 h1 {
     color: black;
     text-align: center;
 }
