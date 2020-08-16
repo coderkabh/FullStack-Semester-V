@@ -165,15 +165,31 @@
     height: 500px;
 }
 
+.sq-img-1 {
+    width: 300px;
+    height: 200px;
+    margin-top: -1px;
+    border-radius: 20px;
+}
+
+
 .square-image {
     justify-content: space-around;
     width: 300px;
     height: 500px;
     background-color: orangered;
+    border-radius: 20px;
 }
 
-.square-image img {
+.square-image h2 {
+    color: white;
+    text-align: center;
+}
 
+.square-image p {
+    padding: 20px 5px 0 20px;
+    color: white;
+    text-align: center;
 }
 
 #section-4 {
@@ -191,9 +207,39 @@
     background-color: mediumpurple;
 }
 
-#footer h1{
+#footer h1 {
     padding-top: 8px;
     text-align: center;
     color: white;
 
 }
+
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: gray;
+    padding-top: 0px;
+    margin-top: 30px;
+    border-radius: 15px;
+    transition-duration: 0.8s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.read {
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    background-color: blue;
+
+}
+
+.button p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
