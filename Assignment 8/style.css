@@ -201,10 +201,22 @@
     color: black;
     text-align: center;
 }
-#footer{
-    height: 50px;
+
+#footer {
+    height: 80px;
     margin: 20px;
     background-color: mediumpurple;
+}
+
+#footer p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+#footer p a {
+    text-decoration: none;
+    color: white;
 }
 
 #footer h1 {
