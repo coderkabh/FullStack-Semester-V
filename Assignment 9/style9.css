@@ -64,10 +64,11 @@ html {
 }
 
 #banner {
-    height: 800px;
     margin: 0 20px;
-    background-image: url("../images/emile-perron-xrVDYZRGdw4-unsplash.jpg");
-    background-size: cover;
+}
+
+#banner img {
+    width: 100%;
 }
 
 #banner h1 {
@@ -79,7 +80,7 @@ html {
 #section-1 {
     width: 100%;
     margin-top: 60px;
-
+    height: auto;
 }
 
 #section-1 h1 {
@@ -88,40 +89,29 @@ html {
 
 }
 
-#avatar-1-img {
-    background-image: url("../images/avatar-1.png");
-    background-position: center;
-}
-
-#avatar-2-img {
-    background-image: url("../images/avatar-2.png");
-    background-position: center;
-}
-
-#avatar-3-img {
-    background-image: url("../images/avatar-3.png");
-    background-position: center;
-}
-
-#avatar-4-img {
-    background-image: url("../images/avatar-4.png");
-    background-position: center;
-}
-
 
 #circular-parent {
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: space-around;
     height: 200px;
+    flex-flow: wrap;
+    margin: 50px 20px 100px;
+
 }
 
 .circular-image {
-    justify-content: space-around;
+    justify-content: center;
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    margin: 50px 80px;
     background-color: #d0b043;
+}
+
+.circular-image img {
+    border-radius: 50%;
 }
 
 #section-2 h1 {
@@ -143,6 +133,7 @@ html {
     margin-top: 20px;
     width: 910px;
     height: 490px;
+    overflow: scroll;
     background-color: rgba(104, 96, 104, 0.46);
 }
 
@@ -282,6 +273,16 @@ html {
 
 /*media queries*/
 
+@media (min-width: 802px) and (max-width: 1620px) {
+    .circular-image {
+        margin: 50px 200px;
+    }
+
+    #section-2 {
+        margin-top: 500px;
+    }
+}
+
 @media (min-width: 835px) and (max-width: 1199px) {
     .header-ul {
         list-style: none;
@@ -292,6 +293,15 @@ html {
         line-height: 60px;
         display: inline-block;
     }
+
+    #banner {
+        width: 100%;
+    }
+
+    .circular-image {
+        margin: 50px 30px;
+    }
+
 
     .header-li a {
         display: block;
@@ -357,6 +367,10 @@ html {
         top: 10px;
     }
 
+    #section-2 {
+        margin-top: 1000px;
+    }
+
 }
 
 @media (max-width: 625px) {
@@ -371,7 +385,7 @@ html {
         width: 100%;
         background-color: #333;
         text-align: center;
-        padding: 80px 0px;
+        padding: 80px 0;
         line-height: normal;
         transition: 0.7s;
     }
@@ -391,5 +405,7 @@ html {
         top: 10px;
     }
 
-
+    #section-2 {
+        margin-top: 1000px;
+    }
 }
