@@ -170,6 +170,37 @@ html {
     color: white;
 }
 
+#section-5 h1 {
+    margin-top: 100px;
+    color: black;
+    text-align: center;
+}
+
+
+#footer {
+    height: 80px;
+    margin: 20px;
+    background-color: mediumpurple;
+}
+
+#footer p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+#footer p a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer h1 {
+    padding-top: 8px;
+    text-align: center;
+    color: white;
+
+}
+
 
 @media (min-width: 835px) and (max-width: 1200px) {
     .header-ul {
