@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#header {
+    width: 100%;
+    height: 70px;
+    background-color: #8c52ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+#header img {
+    width: 70px;
+    height: 70px;
+}
+
+#header h1 {
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#section-1 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 90px;
+}
+
+
+#img-container img {
+    margin: 20px auto;
+    display: block;
+    max-width: 650px;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+#para-container h1 {
+    text-align: center;
+}
+
+#sidebar {
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    top: 70px;
+    left: -100%;
+    background-color: #8c52ff;
+    transition: .8s;
+}
+
+#sidebar-ul {
+    list-style: none;
+
+}
+
+.sidebar-li {
+    border-bottom: 2px solid white;
+}
+
+.sidebar-li a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 25px;
+    color: white;
+    transition: .5s;
+}
+
+span {
+    margin-left: 15px;
+}
+
+.sidebar-li a:hover {
+    border-left: 8px solid white;
+}
+
+#social-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 40px;
+    border-bottom: 2px solid white;
+    padding: 15px 25px;
+    border-top: 2px solid white;
+    margin-top: 200px;
+}
+
+i {
+    font-size: 30px;
+    color: white;
+}
+
+.show-btn, .hide-btn {
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    top: 20px;
+    left: 40px;
+    transition: 0.8s;
+}
+
+.hide-btn {
+    opacity: 0;
+}
+
+#chk:checked ~ #sidebar {
+    left: 0;
+}
+
+#chk:checked ~ .show-btn {
+    opacity: 0;
+}
+
+#chk:checked ~ .hide-btn {
+    opacity: 1;
+}
+
+#chk:checked ~ #para-container {
+    width: 75%;
+}
+
+input {
+    visibility: hidden;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        width: 100%;
+        text-align: center;
+    }
+
+    #logo-heading {
+        display: none;
+    }
+
+}
