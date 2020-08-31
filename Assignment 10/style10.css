@@ -138,8 +138,12 @@ input {
         text-align: center;
     }
 
-    #logo-heading {
-        display: none;
+    #header img {
+        margin-left: 200px;
+    }
+
+    #logo-name {
+        visibility: hidden;
     }
 
 }
