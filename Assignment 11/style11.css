@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+}
+
+table, tr {
+    border: 1px solid black;
+}
+
+td {
+    padding: 5px 25px;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr td {
+    text-align: center;
+}
+
+td i {
+    color: gray;
+}
+
+td i:hover {
+    color: deepskyblue;
+}
+
+.checked {
+    color: green;
+}
+
+.unchecked {
+    color: red;
+}
+
+tr:hover {
+    background-color: #e8ecea;
+}
