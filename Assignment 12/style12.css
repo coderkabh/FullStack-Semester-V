@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    min-width: 100%;
+}
+
+.wrapper {
+    width: 600px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.custom-table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.basic {
+    background-color: #c1dcb7;
+
+}
+
+.plus {
+    background-color: #bad6c8;
+
+}
+
+.deluxe {
+    background-color: #bbd3dc;
+
+}
+
+.pro {
+    background-color: #d5e4bc;
+
+}
+
+.checked {
+    color: green;
+}
+
+.unchecked {
+    color: red;
+}
+
+.custom-table td, .custom-table th {
+    width: 150px;
+    padding: 8px 5px;
+    text-align: center;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+
+.custom-table th {
+    height: 70px;
+    color: #64548f;
+}
