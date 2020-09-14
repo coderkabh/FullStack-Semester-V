@@ -24,7 +24,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    padding: 30px 10px;
 }
 
 .about {
@@ -77,7 +77,7 @@ i {
 .sec-2 {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 30px;
     align-items: center;
 }
 
@@ -104,6 +104,7 @@ i {
 .sec-3 {
     display: flex;
     justify-content: center;
+    padding: 30px;
 }
 
 .sec-3 ul {
@@ -148,3 +149,35 @@ i {
 }
 
 /*Last part css left*/
+
+.sec-4 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 30px;
+}
+
+.sec-4 p {
+    color: gray;
+    position: relative;
+}
+
+.sec-4 p::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -10px;
+    background-color: yellow;
+    transition: all 300ms;
+}
+
+.sec-4 p:hover::after {
+    width: 100%;
+}
+
+hr {
+    opacity: 0.2;
+}
+
