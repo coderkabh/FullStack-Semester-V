@@ -1,39 +1,115 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-14</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style14.css">
-    <title>Assignment 14</title>
 </head>
 <body>
-<header><h1>Form Template</h1></header>
-
-<div class="main-container">
-    <div class="form-template1">
-        <div class="form-header-t1">
-            <h1>LOGIN</h1>
-            <div class="social">
+<h1 class="main-heading">FORM TEMPLATES</h1>
+<div class="container">
+    <div class="form-1">
+        <section class="sec-1">
+            <h3>Log In</h3>
+            <div class="icon">
                 <i class="fa fa-facebook"></i>
                 <i class="fa fa-twitter"></i>
                 <i class="fa fa-google"></i>
             </div>
-        </div>
-        <div class="form-container-t1">
-            <div>
-                <input type="email" name="email" id="email">
-            </div>
-            <div>
-                <input type="password" name="pwd" id="pwd">
-            </div>
-            <p>Forgot<b> Password?</b></p>
-            <input type="submit" value="LOGIN">
+        </section>
+        <section class="input-template-1">
+            <div class="email-template-1">
+                <label></label><br>
+                <input type="text" name="email" placeholder="Your Email....">
 
+            </div>
+            <div class="password-template-1">
+                <label></label><br>
+                <input type="password" name="pswrd" placeholder="Your Password...">
+            </div>
+        </section>
+        <div class="forgot-template-1">
+            <a href="">forgot <b>password?</b></a>
+        </div>
+        <section class="footer">
+            <label></label>
+            <input type="submit" value="login">
+            <label>Don't have an account?<a href=""><b> Sign Up!</b></a></label>
+        </section>
+
+
+    </div>
+    <!-- 2nd template -->
+    <div class="form-2">
+        <section class="sec-2">
+            <h3>Sign Up</h3>
+        </section>
+        <section class="input-template-2">
+            <div class="email-template-2">
+                <label></label><br>
+                <input type="text" name="email" placeholder="Your Email">
+            </div>
+
+            <div class="password-template-2">
+                <label></label><br>
+                <input type="password" name="pswrd" placeholder="Your Password">
+            </div>
+        </section>
+        <div class="chk-box">
+            <input type="checkbox">
+            <label>Accept the <b>Terms and Conditions</b></label>
         </div>
 
+
+        <section class=" button-template-2">
+            <label></label>
+            <input type="submit" value="Sign Up">
+            <label>Have an account?<a href="">Log in!</a></label>
+        </section>
+        <section class="footer-template-2">
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-google"></i>
+            </div>
+        </section>
+
+    </div>
+    <!-- 3rd template -->
+
+    <div class="form-3">
+        <section class="sec-3">
+            <h3>Sign in</h3>
+        </section>
+        <section class="input-template-3">
+            <div class="email-template-3">
+                <input type="text" name="email" placeholder="Your Email">
+            </div>
+
+            <div class="password-template-3">
+                <input type="password" name="pswrd" placeholder="Your Password">
+            </div>
+        </section>
+
+
+        <div class="forgot-template-3">
+            <a href="">forgot <b>password?</b></a>
+        </div>
+        <div class="btn-template-3">
+            <input type="submit" value="Sign in">
+        </div>
+        <!-- </section> -->
+        <div class="with">
+            or sign in with
+        </div>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-google"></i>
+        </div>
+        </section>
     </div>
 </div>
 </body>
