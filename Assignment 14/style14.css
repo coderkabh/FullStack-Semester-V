@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, Serif, sans-serif;
+}
+
+body {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    text-transform: uppercase;
+    color: red;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-template1 {
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+}
+
+.form-header-t1 {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right, orange, red);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-header-t1 h1 {
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.form-header-t1 .social i {
+    color: white;
+    margin-right: 10px;
+    padding: 20px 10px;
+
+}
