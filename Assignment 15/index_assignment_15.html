@@ -5,9 +5,54 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: #1d2124;
+        }
+
+        p {
+            font-size: 80px;
+            text-align: center;
+            color: white;
+            margin: 30px 5px;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #minus, #plus {
+            height: 150px;
+            width: 150px;
+            padding: 5px;
+            background-color: #3fd9a8;
+            font-size: 80px;
+        }
+
+
+    </style>
+    <title>Assignment 15</title>
 </head>
 <body>
+<p>JavaScript Counter</p>
+<div id="container">
+    <button id="minus">-</button>
+    <p id="count">11232</p>
+    <button id="plus">+</button>
+
+</div>
+<script>
+    var minus = document.getElementById("minus");
+    var plus = document.getElementById("plus");
+    count = document.getElementById("count");
+
+</script>
+
 
 </body>
 </html>
