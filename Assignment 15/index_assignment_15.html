@@ -42,7 +42,7 @@
 <p>JavaScript Counter</p>
 <div id="container">
     <button id="minus">-</button>
-    <p id="count">11232</p>
+    <p id="count">0</p>
     <button id="plus">+</button>
 
 </div>
@@ -50,6 +50,57 @@
     var minus = document.getElementById("minus");
     var plus = document.getElementById("plus");
     count = document.getElementById("count");
+    var counter = 0;
+    updateCounter();
+
+    function updateCounter() {
+        count.innerHTML = counter;
+        if (counter <= 0) minus.style.color = "grey";
+        else minus.style.color = "black";
+    }
+
+    plus.addEventListener("click", () => {
+        counter++;
+        updateCounter();
+    });
+
+    minus.addEventListener("click", () => {
+
+
+        if (counter <= 0) {
+            minus.disable = true;
+        } else {
+            counter--;
+            minus.disable = false;
+        }
+        updateCounter();
+    });
+
+    /* minus.onclick = function (){
+       count.innerText = counter;
+
+       if(counter < 0) {
+           minus.disabled = true;
+       }
+       else{
+           minus.disabled = false;
+       }
+         counter--;
+     };
+
+     plus.onclick = function (){
+
+         count.innerText = counter;
+
+
+         if(counter <= 0) {
+             minus.disabled = true;
+         }
+         else{
+             minus.disabled = false;
+         }
+         counter++;
+     };*/
 
 </script>
 
