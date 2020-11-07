@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #64548f;
+}
+
+h1 {
+    margin: 40px auto 20px auto;
+    display: block;
+    text-align: center;
+    color: white;
+}
