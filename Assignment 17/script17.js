@@ -9,21 +9,21 @@ name.addEventListener("keypress", setName);
 name.addEventListener("blur", setName);
 
 function showtime() {
-    let today = new Date();                         //Wed Nov 11 2020 23:03:16 GMT+0530 (India Standard Time)
-    let hour = today.getHours();                   //23
-    let min = today.getMinutes();                   //03
-    let sec = today.getSeconds();                   //16
-    let todayDate = today.toDateString();           ///Wed Nov 11 2020
+    let today = new Date();
+    let hour = today.getHours();
+    let min = today.getMinutes();
+    let sec = today.getSeconds();
+    let todayDate = today.toDateString();
 
     const ampm = hour > 12 ? 'PM' : 'AM';
 
-    hour = hour % 12 || 12;                           //hour = 12%12 = 0
+    hour = hour % 12 || 12;
 
     //output time
     time.innerHTML = `${addZero(hour)}<span>:</span>${addZero(min)}<span>:</span>${addZero(sec)} ${ampm}`;
     date.innerHTML = `${todayDate}`;
 
-    //hh:mm:ss AM(Required Time Format)
+
 
     setTimeout(showtime, 1000);
 
