@@ -33,7 +33,7 @@ function showtime() {
 }
 
 function setGreeting() {
-    let today = new Date(2020, 12, 12, 22, 12, 11);                        //Date(2020,12,12,20,12,11)
+    let today = new Date(2020, 12, 12, 22, 12, 11);
     let hour = today.getHours();
 
     if (hour < 12) {
