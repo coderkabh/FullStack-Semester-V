@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Quicksand, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#time {
+    font-size: 8rem;
+}
+
+h2 {
+    margin-top: 1rem;
+    font-size: 3rem;
+    opacity: 0.5;
+}
+
+h3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
