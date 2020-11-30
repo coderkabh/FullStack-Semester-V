@@ -10,13 +10,13 @@ const small = document.querySelector('small');
 
 //form submission
 form.addEventListener('submit', function (e) {
-    e.preventDefault();                     //to stop submission
+    e.preventDefault();
     checkInput();
 });
 
 //Functions
 function checkInput() {
-    const usernameValue = username.value.trim();    //trim() to remove whitespacesh
+    const usernameValue = username.value.trim();
     const emailValue = email.value.trim();
     const password1Value = password1.value.trim();
     const password2Value = password2.value.trim();
@@ -31,7 +31,7 @@ function checkInput() {
     if (emailValue === '') {
         showError(email, "Email Id can't be blank");
     } else if (!isEmailValid(emailValue)) {
-        showError(email, "Email Id is inavalid");
+        showError(email, "Email Id is in valid");
     } else {
         showSuccess(email);
     }
