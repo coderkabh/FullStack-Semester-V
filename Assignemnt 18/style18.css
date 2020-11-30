@@ -37,7 +37,8 @@ body {
 
 .form-container {
     margin-bottom: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
 }
 
 .form-container label {
@@ -52,4 +53,52 @@ body {
     border-radius: 5px;
     outline: none;
     border: 2px solid #f0f0f0;
+}
+
+.form-container i {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    visibility: hidden;
+}
+
+.form-container small {
+    position: absolute;
+    left: 0px;
+    visibility: hidden;
+    margin-top: 5px;
+}
+
+.form button {
+    display: block;
+    width: 100%;
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.container.success input {
+    border-color: rgb(47, 223, 47);
+}
+
+.container.error input {
+    border-color: red;
+}
+
+.container.success .fa-check-circle {
+    color: rgb(47, 223, 47);
+    visibility: visible;
+}
+
+.container.error .fa-exclamation-circle {
+    color: red;
+    visibility: visible;
+}
+
+.container.error small {
+    color: red;
+    visibility: visible;
 }
