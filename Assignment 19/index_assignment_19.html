@@ -1,13 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 19</title>
+    <link rel="stylesheet" href="style19.css">
 </head>
 <body>
+<div class="container">
+    <form id="form-1">
+        <h3>Create Account</h3>
+        <input type="email" name="" id="" placeholder="Enter Email">
+        <input type="password" name="" id="" placeholder="Enter Password">
+        <input type="password" name="" id="" placeholder="Confirm Password">
+        <div class="btn-box">
+            <button type="button" id="next-1">Next</button>
+        </div>
+    </form>
+
+    <form id="form-2">
+        <h3>Social Links</h3>
+        <input type="text" name="" id="" placeholder="Hackerank">
+        <input type="text" name="" id="" placeholder="Github">
+        <input type="text" name="" id="" placeholder="Confirm Password">
+        <div class="btn-box">
+            <button type="button" id="back-1">Back</button>
+            <button type="button" id="next-2">Next</button>
+        </div>
+    </form>
+
+    <form id="form-3">
+        <h3>Personal Information</h3>
+        <input type="text" name="" id="" placeholder="First Name">
+        <input type="text" name="" id="" placeholder="Last Name">
+        <input type="number" name="" id="" placeholder="Mobile Number">
+        <div class="btn-box">
+            <button type="button" id="back-2">Back</button>
+            <button type="button">Submit</button>
+        </div>
+    </form>
+
+    <div class="step-row">
+        <div id="progress"></div>
+        <div class="step-col"><small>Step-1</small></div>
+        <div class="step-col"><small>Step-2</small></div>
+        <div class="step-col"><small>Step-3</small></div>
+    </div>
+</div>
+
+<script src="practical-19.js"></script>
 
 </body>
 </html>
